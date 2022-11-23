@@ -2,8 +2,8 @@
 // Licensed under Apache-2.0. See the LICENSE file in the project root for more information
 
 using EPiServer;
-using Geta.Optimizely.Categories.Configuration;
-using Geta.Optimizely.Categories.Extensions;
+using Geta.Optimizely.Categories.Core.Configuration;
+using Geta.Optimizely.Categories.Core.Extensions;
 using Microsoft.Extensions.Options;
 
 namespace Geta.Optimizely.Categories.Core
