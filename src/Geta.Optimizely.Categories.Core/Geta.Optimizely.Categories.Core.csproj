@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Geta.Optimizely.Categories.Core</PackageId>
+    <Version>1.0.2opti</Version>
+    <Authors>Ivan Ivanov</Authors>
+    <Company>Indeavr</Company>
+    <Title>Geta Optimizely Categories Core</Title>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Geta Optimizely Categories</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\images\icon.png" Link="icon.png">
+      <PackagePath>\</PackagePath>
+      <Pack>true</Pack>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPiServer.CMS.AspNetCore" Version="12.0.3" />
+    <PackageReference Include="EPiServer.CMS.UI.Core" Version="12.0.3" />
+    <PackageReference Include="EPiServer.Framework" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
