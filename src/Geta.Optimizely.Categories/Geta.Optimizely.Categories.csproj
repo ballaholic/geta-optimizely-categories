@@ -16,6 +16,8 @@
     <PackageReleaseNotes>https://github.com/Geta/geta-optimizely-categories/blob/master/CHANGELOG.md</PackageReleaseNotes>
     <PackageTags>Geta Optimizely Categories</PackageTags>
     <RepositoryUrl>https://github.com/Geta/geta-optimizely-categories.git</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -44,6 +46,10 @@
       <PackagePath>\</PackagePath>
       <Link>icon.png</Link>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Geta.Optimizely.Categories.Core\Geta.Optimizely.Categories.Core.csproj" />
   </ItemGroup>
 
   <Import Project="msbuild\Main.proj" />

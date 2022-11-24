@@ -5,6 +5,8 @@ using EPiServer.ServiceLocation;
 using EPiServer.Shell;
 using EPiServer.Shell.ViewComposition;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories
 {
     [Component]

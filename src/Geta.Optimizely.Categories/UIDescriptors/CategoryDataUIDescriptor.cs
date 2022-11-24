@@ -3,6 +3,8 @@
 
 using EPiServer.Shell;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories.UIDescriptors
 {
     [UIDescriptorRegistration]

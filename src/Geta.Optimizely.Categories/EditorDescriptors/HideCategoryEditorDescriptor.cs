@@ -7,7 +7,8 @@ using EPiServer.Core;
 using EPiServer.ServiceLocation;
 using EPiServer.Shell.ObjectEditing;
 using EPiServer.Shell.ObjectEditing.EditorDescriptors;
-using Geta.Optimizely.Categories.Configuration;
+using Geta.Optimizely.Categories.Core.Configuration;
+
 using Microsoft.Extensions.Options;
 
 namespace Geta.Optimizely.Categories.EditorDescriptors

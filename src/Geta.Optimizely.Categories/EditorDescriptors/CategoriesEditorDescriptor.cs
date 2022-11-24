@@ -11,6 +11,8 @@ using EPiServer.Shell;
 using EPiServer.Shell.ObjectEditing;
 using EPiServer.Shell.ObjectEditing.EditorDescriptors;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories.EditorDescriptors
 {
     [EditorDescriptorRegistration(TargetType = typeof(IList<ContentReference>), UIHint = CategoryUIHint.Categories)]
