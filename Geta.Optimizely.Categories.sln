@@ -10,8 +10,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation", "sandbox\Foundation\src\Foundation\Foundation.csproj", "{FD55722F-036D-45D4-84B4-3B97317DF2E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geta.Optimizely.Categories.Find", "src\Geta.Optimizely.Categories.Find\Geta.Optimizely.Categories.Find.csproj", "{1B0B8069-16AE-4156-8D96-5E65B3022CC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E67C3223-26FB-4E88-A07E-F2E3A3E8AE2E} = {E67C3223-26FB-4E88-A07E-F2E3A3E8AE2E}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Optimizely.Categories.Core", "Geta.Optimizely.Categories.Core\Geta.Optimizely.Categories.Core.csproj", "{E67C3223-26FB-4E88-A07E-F2E3A3E8AE2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geta.Optimizely.Categories.Core", "src\Geta.Optimizely.Categories.Core\Geta.Optimizely.Categories.Core.csproj", "{E67C3223-26FB-4E88-A07E-F2E3A3E8AE2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
