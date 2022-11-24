@@ -10,6 +10,8 @@ using EPiServer.Find;
 using EPiServer.Find.Api.Facets;
 using EPiServer.ServiceLocation;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories.Find.Extensions
 {
     public static class IHasFacetResultsExtensions

@@ -29,6 +29,6 @@
     <PackageReference Include="EPiServer.Find.Cms" Version="14.0.4" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Geta.Optimizely.Categories\Geta.Optimizely.Categories.csproj" />
+    <ProjectReference Include="..\Geta.Optimizely.Categories.Core\Geta.Optimizely.Categories.Core.csproj" />
   </ItemGroup>
 </Project>

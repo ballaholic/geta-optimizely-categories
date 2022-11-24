@@ -8,6 +8,8 @@ using System.Linq.Expressions;
 using EPiServer.Core;
 using EPiServer.Find;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories.Find.Extensions
 {
     public static class ITypeSearchExtensions

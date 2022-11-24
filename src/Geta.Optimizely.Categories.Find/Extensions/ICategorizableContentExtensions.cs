@@ -8,6 +8,8 @@ using EPiServer.Find;
 using EPiServer.Find.Api.Querying;
 using EPiServer.Find.Api.Querying.Filters;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories.Find.Extensions
 {
     public static class ICategorizableContentExtensions

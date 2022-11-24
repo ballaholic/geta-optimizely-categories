@@ -14,6 +14,8 @@ using EPiServer.Shell.Search;
 using EPiServer.Web;
 using EPiServer.Web.Routing;
 
+using Geta.Optimizely.Categories.Core;
+
 namespace Geta.Optimizely.Categories.Find
 {
     [SearchProvider]

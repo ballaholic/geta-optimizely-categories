@@ -3,6 +3,8 @@
 
 using EPiServer.Find;
 using EPiServer.Find.ClientConventions;
+
+using Geta.Optimizely.Categories.Core;
 using Geta.Optimizely.Categories.Find.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
