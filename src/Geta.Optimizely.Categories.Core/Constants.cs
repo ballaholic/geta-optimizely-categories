@@ -5,6 +5,6 @@ namespace Geta.Optimizely.Categories.Core
 {
     public class Constants
     {
-        public const string ModuleName = "Geta.Optimizely.Categories.Core";
+        public const string ModuleName = "Geta.Optimizely.Categories";
     }
 }

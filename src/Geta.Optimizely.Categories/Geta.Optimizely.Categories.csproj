@@ -17,7 +17,7 @@
     <PackageTags>Geta Optimizely Categories</PackageTags>
     <RepositoryUrl>https://github.com/Geta/geta-optimizely-categories.git</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

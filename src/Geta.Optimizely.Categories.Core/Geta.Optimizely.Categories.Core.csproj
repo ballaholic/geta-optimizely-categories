@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <PackageId>Geta.Optimizely.Categories.Core</PackageId>
-    <Version>1.0.2opti</Version>
+    <Version>2.1.0</Version>
     <Authors>Ivan Ivanov</Authors>
     <Company>Indeavr</Company>
     <Title>Geta Optimizely Categories Core</Title>
@@ -15,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\images\icon.png" Link="icon.png">
+    <None Include="..\..\images\icon.png" Link="icon.png">
       <PackagePath>\</PackagePath>
       <Pack>true</Pack>
     </None>
